@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-25 10:14+0000\n"
-"PO-Revision-Date: 2024-10-01 18:58+0300\n"
+"PO-Revision-Date: 2024-10-02 20:49+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -50,7 +50,7 @@ msgstr "Сохранена новая роль \"%(name)s\"."
 #, python-format
 msgctxt "admin roles"
 msgid "Role \"%(name)s\" has been changed."
-msgstr "Роль \"%(name)s\" была изменена."
+msgstr "Роль \"%(name)s\" изменена."
 
 #: acl/admin/views.py:75
 #, python-format
@@ -62,7 +62,7 @@ msgstr "Роль \"%(name)s\" особая роль, и ее нельзя уда
 #, python-format
 msgctxt "admin roles"
 msgid "Role \"%(name)s\" has been deleted."
-msgstr "Роль \"%(name)s\" была удалена."
+msgstr "Роль \"%(name)s\" удалена."
 
 #: acl/migrations/0003_default_roles.py:10
 msgctxt "role name"
@@ -160,7 +160,7 @@ msgstr "Нет"
 #: admin/views/auth.py:40
 msgctxt "admin auth"
 msgid "Your admin session has been closed."
-msgstr "Ваша сессия администратора была закрыта."
+msgstr "Ваша сессия администратора закрыта."
 
 #: admin/views/generic/list.py:39
 msgctxt "admin lists"
@@ -449,13 +449,13 @@ msgstr "Сохранена новая категория \"%(name)s\"."
 #, python-format
 msgctxt "admin categories"
 msgid "Category \"%(name)s\" has been edited."
-msgstr "Категория \"%(name)s\" была отредактирована."
+msgstr "Категория \"%(name)s\" отредактирована."
 
 #: categories/admin/views/categories.py:111
 #, python-format
 msgctxt "admin categories"
 msgid "Category \"%(name)s\" has been deleted."
-msgstr "Категория \"%(name)s\" была удалена."
+msgstr "Категория \"%(name)s\" удалена."
 
 #: categories/admin/views/categories.py:164
 #, python-format
@@ -484,7 +484,7 @@ msgstr "Сохранена новая роль \"%(name)s\"."
 #, python-format
 msgctxt "admin categories roles"
 msgid "Role \"%(name)s\" has been changed."
-msgstr "Роль \"%(name)s\" была изменена."
+msgstr "Роль \"%(name)s\" изменена."
 
 #: categories/admin/views/perms.py:93
 #, python-format
@@ -496,13 +496,13 @@ msgstr "Роль \"%(name)s\" особая роль, и ее нельзя уда
 #, python-format
 msgctxt "admin categories roles"
 msgid "Role \"%(name)s\" has been deleted."
-msgstr "Роль \"%(name)s\" была удалена."
+msgstr "Роль \"%(name)s\" удалена."
 
 #: categories/admin/views/perms.py:149
 #, python-format
 msgctxt "admin categories roles"
 msgid "Category %(name)s permissions have been changed."
-msgstr "Права доступа для категории %(name)s были изменены."
+msgstr "Права доступа для категории %(name)s изменены."
 
 #: categories/admin/views/perms.py:161
 msgctxt "admin categories"
@@ -518,7 +518,7 @@ msgstr "Никаких категорий не существует."
 #, python-format
 msgctxt "admin categories roles"
 msgid "Category permissions for role %(name)s have been changed."
-msgstr "Были изменены разрешения категории для роли %(name)s."
+msgstr "Изменены разрешения категории для роли %(name)s."
 
 #: categories/admin/views/perms.py:230
 msgctxt "admin roles"
@@ -609,7 +609,7 @@ msgstr "Пользователи"
 msgctxt "admin node"
 msgid "Customize user accounts default behavior and features availability."
 msgstr ""
-"Настройте поведение учетных записей пользователей по умолчанию и доступность "
+"Настроить поведение учетных записей пользователей по умолчанию и доступность "
 "действий."
 
 #: conf/admin/__init__.py:77
@@ -666,7 +666,7 @@ msgstr "Аналитика"
 #: conf/admin/__init__.py:119
 msgctxt "admin node"
 msgid "Enable Google Analytics or setup Google Site Verification."
-msgstr "Включите Google Analytics или настройте проверку сайта Google."
+msgstr "Включите Google Analytics или настроить проверку сайта Google."
 
 #: conf/admin/forms/analytics.py:17
 msgctxt "admin analytics settings form"
@@ -694,8 +694,8 @@ msgid ""
 "This code was extracted from the uploaded site verification file. To change "
 "it, upload new verification file."
 msgstr ""
-"Этот код был извлечен из загруженного файла проверки сайта. Чтобы изменить "
-"его, загрузите новый файл проверки."
+"Этот код извлечен из загруженного файла проверки сайта. Чтобы изменить его, "
+"загрузите новый файл проверки."
 
 #: conf/admin/forms/analytics.py:35
 msgctxt "admin analytics settings form"
@@ -908,7 +908,7 @@ msgid ""
 "large logo was not uploaded."
 msgstr ""
 "Изображение, которое будет отображаться на навигационной панели форума рядом "
-"с текстом логотипа, если большой логотип не был загружен."
+"с текстом логотипа, если большой логотип не загружен."
 
 #: conf/admin/forms/general.py:92
 msgctxt "admin general settings form"
@@ -927,7 +927,7 @@ msgid ""
 "text will be displayed right next to it. If a large logo was uploaded, it "
 "will replace both the small logo and the text."
 msgstr ""
-"Текст, отображаемый в навигационной панели форума. Если было загружено "
+"Текст, отображаемый в навигационной панели форума. Если загружено "
 "изображение небольшого логотипа, этот текст будет отображаться рядом с ним. "
 "Если был загружен большой логотип, он заменит и маленький логотип, и текст."
 
@@ -1232,8 +1232,7 @@ msgstr ""
 msgctxt "admin oauth2 settings form"
 msgid "Send a welcoming e-mail to users on their first sign-ons"
 msgstr ""
-"Отправляйте приветственное электронное письмо пользователям при их первом "
-"входе в систему"
+"Отправлять приветственное письмо пользователям при их первом входе в систему"
 
 #: conf/admin/forms/oauth2.py:183
 msgctxt "admin oauth2 settings form"
@@ -1374,7 +1373,7 @@ msgid ""
 "attached to any post are deleted from disk."
 msgstr ""
 "Период времени (в часах), по истечении которого загруженные пользователем "
-"файлы, которые не были прикреплены ни к одному посту, удаляются с диска."
+"файлы, которые не прикреплены ни к одному посту, удаляются с диска."
 
 #: conf/admin/forms/threads.py:88
 msgctxt "admin threads settings form"
@@ -1605,7 +1604,7 @@ msgid ""
 "square."
 msgstr ""
 "Пустой аватар отображается в интерфейсе, когда аватар пользователя "
-"недоступен: когда пользователь был удален или является гостем. Загруженное "
+"недоступен: когда пользователь удален или является гостем. Загруженное "
 "изображение должно быть квадратным."
 
 #: conf/admin/forms/users.py:174
@@ -1761,7 +1760,7 @@ msgstr ""
 #: conf/admin/views.py:42
 msgctxt "admin settings"
 msgid "Settings have been saved."
-msgstr "Настройки были сохранены."
+msgstr "Настройки сохранены."
 
 #: core/errorpages.py:52
 msgctxt "api"
@@ -1794,7 +1793,7 @@ msgstr "При входе в систему с использованием %(ba
 #: core/errorpages.py:96
 msgctxt "social auth"
 msgid "The sign in process has been canceled by user."
-msgstr "Процесс входа в систему был отменен пользователем."
+msgstr "Процесс входа в систему отменен пользователем."
 
 #: core/errorpages.py:100
 msgctxt "social auth"
@@ -1812,8 +1811,8 @@ msgid ""
 "Your request was rejected because your browser didn't send the CSRF cookie, "
 "or the cookie sent was invalid."
 msgstr ""
-"Ваш запрос был отклонен, поскольку ваш браузер не отправил файл cookie CSRF "
-"или отправленный файл cookie был недействительным."
+"Ваш запрос отклонен, поскольку ваш браузер не отправил файл cookie CSRF или "
+"отправленный файл cookie был недействительным."
 
 #: core/rest_permissions.py:10
 msgctxt "api"
@@ -1951,7 +1950,7 @@ msgstr "Загруженное изображение не было в форм�
 #: icons/admin/views.py:18
 msgctxt "admin icons"
 msgid "Icons have been updated."
-msgstr "Значки были обновлены."
+msgstr "Значки обновлены."
 
 #: legal/admin/__init__.py:35
 msgctxt "admin node"
@@ -2076,7 +2075,7 @@ msgstr "Вы уверены, что хотите удалить эти согл�
 #: legal/admin/views.py:57
 msgctxt "admin agreements"
 msgid "Selected agreements have been deleted."
-msgstr "Выбранные соглашения были удалены."
+msgstr "Выбранные соглашения удалены."
 
 #: legal/admin/views.py:63
 #, python-format
@@ -2101,7 +2100,7 @@ msgstr "Соглашение \"%(title)s\" удалено."
 msgctxt "admin agreements"
 msgid "Agreement \"%(title)s\" has been set as active for type \"%(type)s\"."
 msgstr ""
-"Соглашение \"%(title)s\" было установлено как активное для типа \"%(type)s\"."
+"Соглашение \"%(title)s\" установлено как активное для типа \"%(type)s\"."
 
 #: legal/admin/views.py:118
 #, python-format
@@ -2154,7 +2153,7 @@ msgstr "Пункты меню"
 msgctxt "admin node"
 msgid "Use those options to add custom items to the navbar and footer menus."
 msgstr ""
-"Используйте эти параметры для добавления пользовательских элементов в меню "
+"Использовать эти параметры для добавления пользовательских элементов в меню "
 "панели навигации и нижнего колонтитула."
 
 #: menus/admin/forms.py:10
@@ -2239,7 +2238,7 @@ msgstr "Вы уверены, что хотите удалить эти пунк�
 #: menus/admin/views.py:44
 msgctxt "admin menu items"
 msgid "Selected menu items have been deleted."
-msgstr "Выбранные пункты меню были удалены."
+msgstr "Выбранные пункты меню удалены."
 
 #: menus/admin/views.py:50
 #, python-format
@@ -2251,25 +2250,25 @@ msgstr "Сохранен новый пункт меню %(item)s."
 #, python-format
 msgctxt "admin menu items"
 msgid "Menu item %(item)s has been edited."
-msgstr "Пункт меню %(item)s был отредактирован."
+msgstr "Пункт меню %(item)s отредактирован."
 
 #: menus/admin/views.py:76
 #, python-format
 msgctxt "admin menu items"
 msgid "Menu item %(item)s has been deleted."
-msgstr "Пункт меню %(item)s был удален."
+msgstr "Пункт меню %(item)s удален."
 
 #: menus/admin/views.py:96
 #, python-format
 msgctxt "admin menu items"
 msgid "Menu item %(item)s has been moved after %(other)s."
-msgstr "Пункт меню %(item)s был перенесён после %(other)s."
+msgstr "Пункт меню %(item)s перенесён после %(other)s."
 
 #: menus/admin/views.py:118
 #, python-format
 msgctxt "admin menu items"
 msgid "Menu item %(item)s has been moved before %(other)s."
-msgstr "Пункт меню %(item)s был переносить перед %(other)s."
+msgstr "Пункт меню %(item)s перенесён перед %(other)s."
 
 #: menus/models.py:10
 msgctxt "menu choice"
@@ -2316,7 +2315,7 @@ msgstr "Уведомлять только на сайте"
 #: notifications/threads.py:33
 msgctxt "notification type"
 msgid "Notify on site and with e-mail"
-msgstr "Уведомить на сайте и по электронной почте"
+msgstr "Уведомлять на сайте и по электронной почте"
 
 #: notifications/threads.py:136
 #, python-format
@@ -2334,7 +2333,7 @@ msgstr "%(user)s пригласил вас принять участие в за
 #: oauth2/exceptions.py:14
 msgctxt "oauth2 error"
 msgid "The OAuth2 process was canceled by the provider."
-msgstr "Процесс OAuth2 был отклонён провайдером."
+msgstr "Процесс OAuth2 отклонён провайдером."
 
 #: oauth2/exceptions.py:23
 msgctxt "oauth2 error"
@@ -2418,14 +2417,13 @@ msgid ""
 "User account associated with the profile from the OAuth2 provider was "
 "deactivated by the site administrator."
 msgstr ""
-"Учетная запись пользователя, связанная с профилем провайдера OAuth2, была "
+"Учетная запись пользователя, связанная с профилем провайдера OAuth2 "
 "деактивирована администратором сайта."
 
 #: oauth2/exceptions.py:121
 msgctxt "oauth2 error"
 msgid "User profile retrieved from the OAuth2 provider did not validate."
-msgstr ""
-"Профиль пользователя, полученный от провайдера OAuth2, не был проверен."
+msgstr "Профиль пользователя, полученный от провайдера OAuth2 не проверен."
 
 #: oauth2/user.py:99
 msgctxt "oauth2 error"
@@ -2509,7 +2507,7 @@ msgstr "Включите этого поставщика"
 #: socialauth/admin/forms/base.py:46
 msgctxt "admin social auth provider form"
 msgid "Associate existing users by email"
-msgstr "Связывайте существующих пользователей по электронной почте"
+msgstr "Связать существующих пользователей по электронной почте"
 
 #: socialauth/admin/forms/base.py:50
 msgctxt "admin social auth provider form"
@@ -2581,25 +2579,25 @@ msgstr ""
 #, python-format
 msgctxt "admin social auth providers"
 msgid "Login with %(provider)s has been updated."
-msgstr "Авторизация с помощью %(provider)s была обновлена."
+msgstr "Авторизация с помощью %(provider)s обновлена."
 
 #: socialauth/admin/views.py:76
 #, python-format
 msgctxt "admin social auth providers"
 msgid "Login with %(provider)s has been disabled."
-msgstr "Авторизация с помощью %(provider)s была отключена."
+msgstr "Авторизация с помощью %(provider)s отключена."
 
 #: socialauth/admin/views.py:99
 #, python-format
 msgctxt "admin social auth providers"
 msgid "Login with %(provider)s has been moved after %(other)s."
-msgstr "Авторизация с помощью %(provider)s была перенесена после %(other)s."
+msgstr "Авторизация с помощью %(provider)s перенесена после %(other)s."
 
 #: socialauth/admin/views.py:123
 #, python-format
 msgctxt "admin social auth providers"
 msgid "Login with %(provider)s has been moved before %(other)s."
-msgstr "Авторизация с помощью %(provider)s была перенесена перед %(other)s."
+msgstr "Авторизация с помощью %(provider)s перенесена перед %(other)s."
 
 #: socialauth/pipeline.py:89
 #, python-format
@@ -2631,7 +2629,7 @@ msgstr "Пожалуйста, попробуйте повторно отправ
 msgctxt "social auth"
 msgid "This feature has been disabled. Please use %(provider)s to sign in."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s для входа в "
+"Эта функция отключена. Пожалуйста, используйте %(provider)s для входа в "
 "систему."
 
 #: templates/misago/acl_debug.html:5
@@ -3355,7 +3353,7 @@ msgstr "Изменить настройки"
 #: templates/misago/admin/conf/form.html:27
 msgctxt "admin settings form"
 msgid "Form was completed with errors."
-msgstr "Форма была заполнена с ошибками."
+msgstr "Форма заполнена с ошибками."
 
 #: templates/misago/admin/conf/form.html:37
 msgctxt "admin settings form"
@@ -3573,9 +3571,8 @@ msgid ""
 "will be removed in a future version of Misago. Please use the notification "
 "settings instead."
 msgstr ""
-"Функция подписки на темы была заменена на уведомления и будет удалена в "
-"будущей версии Misago. Пожалуйста, используйте вместо этого настройки "
-"уведомлений."
+"Функция подписки на темы заменена на уведомления и будет удалена в будущей "
+"версии Misago. Пожалуйста, используйте вместо этого настройки уведомлений."
 
 #: templates/misago/admin/conf/users_settings.html:100
 msgctxt "admin users settings form"
@@ -3875,15 +3872,15 @@ msgstr "Страница не найдена"
 #: templates/misago/admin/errorpages/404.html:12
 msgctxt "admin error 404"
 msgid "Requested page could not be found"
-msgstr "Запрошенная страница не была найдена"
+msgstr "Запрошенная страница не найдена"
 
 #: templates/misago/admin/errorpages/404.html:16
 msgctxt "admin error 404"
 msgid ""
 "The link you've followed was incorrect or the page has been moved or deleted."
 msgstr ""
-"Ссылка, по которой вы перешли, была неверной, или страница была перенесена "
-"или удалена."
+"Ссылка, по которой вы перешли неверная, или страница была перенесена или "
+"удалена."
 
 #: templates/misago/admin/errorpages/csrf_failure.html:5
 #: templates/misago/admin/errorpages/csrf_failure.html:14
@@ -3899,8 +3896,8 @@ msgid ""
 "Your form submission was rejected because your browser didn't send the CSRF "
 "cookie, or the cookie sent was invalid."
 msgstr ""
-"Ваша отправка формы была отклонена из-за того, что ваш браузер не отправил "
-"файл cookie CSRF или отправленный файл cookie был недействительным."
+"Ваша отправка формы отклонена из-за того, что ваш браузер не отправил файл "
+"cookie CSRF или отправленный файл cookie был недействительным."
 
 #: templates/misago/admin/errorpages/csrf_failure_message.html:6
 msgctxt "admin csrf error"
@@ -3911,8 +3908,8 @@ msgstr "Обычно это является результатом одной �
 msgctxt "admin csrf error"
 msgid "Your browser is configured to don't accept or send any cookies."
 msgstr ""
-"Ваш браузер настроен таким образом, чтобы не принимать и не отправлять "
-"никакие файлы cookie."
+"Ваш браузер настроен таким образом, чтобы не принимать и не отправлять файлы "
+"cookie."
 
 #: templates/misago/admin/errorpages/csrf_failure_message.html:12
 msgctxt "admin csrf error"
@@ -3920,7 +3917,7 @@ msgid ""
 "The form was sent after being opened in the browser for a long time (eg. few "
 "days) and cookie token has expired."
 msgstr ""
-"Форма была отправлена после того, как она была открыта в браузере в течение "
+"Форма отправлена после того, как она была открыта в браузере в течение "
 "длительного времени (например, нескольких дней), и срок действия cookie-"
 "маркера истек."
 
@@ -3930,8 +3927,8 @@ msgid ""
 "The site is configured to use the HTTPS, but this form was sent over the the "
 "HTTP."
 msgstr ""
-"Сайт настроен на использование протокола HTTPS, но эта форма была отправлена "
-"по протоколу HTTP."
+"Сайт настроен на использование протокола HTTPS, но эта форма отправлена по "
+"протоколу HTTP."
 
 #: templates/misago/admin/errorpages/csrf_failure_message.html:16
 msgctxt "admin csrf error"
@@ -3956,7 +3953,7 @@ msgstr "Очистить фильтры"
 #: templates/misago/admin/generic/form.html:25
 msgctxt "admin form"
 msgid "Form was completed with errors."
-msgstr "Форма была заполнена с ошибками."
+msgstr "Форма заполнена с ошибками."
 
 #: templates/misago/admin/generic/form.html:36
 msgctxt "admin form"
@@ -3966,7 +3963,7 @@ msgstr "Отмена"
 #: templates/misago/admin/generic/form.html:42
 msgctxt "admin form action"
 msgid "Save and keep editing"
-msgstr "Сохраняйте и продолжайте редактировать"
+msgstr "Сохранить и продолжить редактировать"
 
 #: templates/misago/admin/generic/form.html:45
 msgctxt "admin form action"
@@ -4204,7 +4201,7 @@ msgstr "Удалить пункт"
 #: templates/misago/admin/menuitems/list.html:119
 msgctxt "admin menu items"
 msgid "No menu items are set."
-msgstr "Никакие пункты меню не заданы."
+msgstr "Пункты меню не заданы."
 
 #: templates/misago/admin/menuitems/list.html:129
 msgctxt "admin menu items"
@@ -4328,7 +4325,7 @@ msgstr "Репозиторий:"
 #: templates/misago/admin/plugins/list.html:131
 msgctxt "admin plugins"
 msgid "No plugins are installed on this site."
-msgstr "На этом сайте не установлены никакие плагины."
+msgstr "На этом сайте не установлены плагины."
 
 #: templates/misago/admin/ranks/form.html:9
 #: templates/misago/admin/ranks/form.html:40
@@ -5148,8 +5145,8 @@ msgid ""
 "This user is deleting their account. It has been deactivated for the "
 "duration of the process."
 msgstr ""
-"Этот пользователь удаляет свою учетную запись. Она была деактивирована на "
-"время процесса."
+"Этот пользователь удаляет свою учетную запись. Она деактивирована на время "
+"процесса."
 
 #: templates/misago/admin/users/edit.html:264
 msgctxt "admin user form"
@@ -5352,8 +5349,7 @@ msgstr[2] ""
 #, python-format
 msgctxt "account activated email"
 msgid "%(user)s, your account has been activated by site administrator."
-msgstr ""
-"%(user)s,, ваша учетная запись была активирована администратором сайта."
+msgstr "%(user)s, ваша учетная запись активирована администратором сайта."
 
 #: templates/misago/emails/activation/by_admin.html:12
 msgctxt "account activated email from admin sign in cta link"
@@ -5704,13 +5700,13 @@ msgctxt "error 404 page"
 msgid ""
 "The link you've followed was incorrect or the page has been moved or deleted."
 msgstr ""
-"Ссылка, по которой вы перешли, была неверной, или страница была перенесена "
-"или удалена."
+"Ссылка, по которой вы перешли неверная, или страница была перенесена или "
+"удалена."
 
 #: templates/misago/errorpages/404.html:37
 msgctxt "error 404 page"
 msgid "Requested page could not be found."
-msgstr "Запрошенная страница не была найдена."
+msgstr "Запрошенная страница не найдена."
 
 #: templates/misago/errorpages/405.html:5
 #: templates/misago/errorpages/405.html:13
@@ -6395,7 +6391,7 @@ msgstr "%(username)s ни на кого не подписан."
 #: templates/misago/profile/header.html:29
 msgctxt "user profile page header"
 msgid "This user's account has been disabled by administrator."
-msgstr "Учетная запись этого пользователя была отключена администратором."
+msgstr "Учетная запись этого пользователя отключена администратором."
 
 #: templates/misago/profile/header.html:30
 msgctxt "user profile page header"
@@ -6529,7 +6525,7 @@ msgstr "Имя пользователя %(username)s никогда не мен�
 #, python-format
 msgctxt "agreement overlay"
 msgid "%(agreement)s has been updated:"
-msgstr "%(agreement)s было обновлено:"
+msgstr "%(agreement)s обновлено:"
 
 #: templates/misago/required_agreement.html:19
 msgctxt "agreement overlay"
@@ -6642,59 +6638,59 @@ msgstr "Новое событие"
 #, python-format
 msgctxt "thread event"
 msgid "Thread title has been changed from %(old_title)s."
-msgstr "Заголовок темы был изменен с %(old_title)s."
+msgstr "Заголовок темы изменен с %(old_title)s."
 
 #: templates/misago/thread/posts/event/index.html:56
 msgctxt "thread event"
 msgid "Thread has been pinned globally."
-msgstr "Тема была закреплена глобально."
+msgstr "Тема закреплена глобально."
 
 #: templates/misago/thread/posts/event/index.html:58
 msgctxt "thread event"
 msgid "Thread has been pinned in category."
-msgstr "Тема была закреплена в категории."
+msgstr "Тема закреплена в категории."
 
 #: templates/misago/thread/posts/event/index.html:60
 msgctxt "thread event"
 msgid "Thread has been unpinned."
-msgstr "Тема была откреплена."
+msgstr "Тема откреплена."
 
 #: templates/misago/thread/posts/event/index.html:65
 #, python-format
 msgctxt "thread event"
 msgid "Thread has been moved from %(from_category)s."
-msgstr "Тема была перенесена из %(from_category)s."
+msgstr "Тема перенесена из %(from_category)s."
 
 #: templates/misago/thread/posts/event/index.html:72
 #, python-format
 msgctxt "thread event"
 msgid "The %(merged_thread)s thread has been merged into this thread."
-msgstr "Тема %(merged_thread)s была объединена с этой темой."
+msgstr "Тема %(merged_thread)s объединена с этой темой."
 
 #: templates/misago/thread/posts/event/index.html:76
 msgctxt "thread event"
 msgid "Thread has been approved."
-msgstr "Тема была одобрена."
+msgstr "Тема одобрена."
 
 #: templates/misago/thread/posts/event/index.html:78
 msgctxt "thread event"
 msgid "Thread has been opened."
-msgstr "Тема была открыта."
+msgstr "Тема открыта."
 
 #: templates/misago/thread/posts/event/index.html:80
 msgctxt "thread event"
 msgid "Thread has been closed."
-msgstr "Тема была закрыта."
+msgstr "Тема закрыта."
 
 #: templates/misago/thread/posts/event/index.html:82
 msgctxt "thread event"
 msgid "Thread has been revealed."
-msgstr "Тема была показана."
+msgstr "Тема показана."
 
 #: templates/misago/thread/posts/event/index.html:84
 msgctxt "thread event"
 msgid "Thread has been made hidden."
-msgstr "Тема была скрыта."
+msgstr "Тема скрыта."
 
 #: templates/misago/thread/posts/event/index.html:86
 msgctxt "thread event"
@@ -6951,7 +6947,7 @@ msgstr "На этом сайте пока нет тем для обсужден�
 #: templates/misago/threadslist/base.html:60
 msgctxt "threads list empty"
 msgid "No threads matching specified criteria were found."
-msgstr "Не было найдено ни одной темы, соответствующей указанным критериям."
+msgstr "Не найдено ни одной темы, соответствующей указанным критериям."
 
 #: templates/misago/threadslist/base.html:75
 msgctxt "threads list paginator"
@@ -6975,7 +6971,7 @@ msgstr "Вы не участвуете в закрытых темах."
 #: templates/misago/threadslist/private_threads.html:62
 msgctxt "private threads page"
 msgid "No threads matching specified criteria were found."
-msgstr "Не было найдено ни одной темы, соответствующего указанным критериям."
+msgstr "Не найдено ни одной темы, соответствующего указанным критериям."
 
 #: templates/misago/threadslist/thread.html:8
 #: templates/misago/threadslist/thread.html:14
@@ -7302,7 +7298,7 @@ msgstr "Загруженный файл не является корректны
 #: themes/admin/forms.py:150
 msgctxt "admin theme assets form"
 msgid "No files have been uploaded."
-msgstr "Никакие файлы не были загружены."
+msgstr "Файлы не загружены."
 
 #: themes/admin/forms.py:180
 #, python-format
@@ -7437,7 +7433,7 @@ msgstr "Сохранена новая тема \"%(name)s\"."
 #, python-format
 msgctxt "admin themes"
 msgid "Theme \"%(name)s\" has been updated."
-msgstr "Тема \"%(name)s\" была обновлена."
+msgstr "Тема \"%(name)s\" обновлена."
 
 #: themes/admin/views.py:57
 msgctxt "admin themes"
@@ -7448,7 +7444,7 @@ msgstr "Тема по умолчанию не может быть изменен
 #, python-format
 msgctxt "admin themes"
 msgid "Theme \"%(name)s\" has been deleted."
-msgstr "Тема \"%(name)s\" была удалена."
+msgstr "Тема \"%(name)s\" удалена."
 
 #: themes/admin/views.py:70
 msgctxt "admin themes"
@@ -7485,7 +7481,7 @@ msgstr "Тема по умолчанию не может быть экспорт
 #, python-format
 msgctxt "admin themes"
 msgid "Theme \"%(name)s\" has been imported."
-msgstr "Тема \"%(name)s\" была импортирована."
+msgstr "Тема \"%(name)s\" импортирована."
 
 #: themes/admin/views.py:134
 msgctxt "admin themes"
@@ -7500,7 +7496,7 @@ msgstr "Возможно, некоторые css-файлы не были доб
 #: themes/admin/views.py:187
 msgctxt "admin themes"
 msgid "New CSS files have been added to the theme."
-msgstr "В тему были добавлены новые CSS-файлы."
+msgstr "В тему добавлены новые CSS-файлы."
 
 #: themes/admin/views.py:194
 msgctxt "admin themes"
@@ -7510,12 +7506,12 @@ msgstr "В тему добавлены новые медиафайлы."
 #: themes/admin/views.py:227
 msgctxt "admin themes"
 msgid "Selected CSS files have been deleted."
-msgstr "Выбранные CSS-файлы были удалены."
+msgstr "Выбранные CSS-файлы удалены."
 
 #: themes/admin/views.py:237
 msgctxt "admin themes"
 msgid "Selected media have been deleted."
-msgstr "Выбранные медиафайлы были удалены."
+msgstr "Выбранные медиафайлы удалены."
 
 #: themes/admin/views.py:258
 msgctxt "admin themes"
@@ -7538,13 +7534,13 @@ msgstr "\"%s\" сдвинуто вниз."
 #, python-format
 msgctxt "admin themes"
 msgid "New CSS \"%(name)s\" has been saved."
-msgstr "Был сохранен новый CSS \"%(name)s\"."
+msgstr "Сохранен новый CSS \"%(name)s\"."
 
 #: themes/admin/views.py:357
 #, python-format
 msgctxt "admin themes"
 msgid "CSS \"%(name)s\" has been updated."
-msgstr "CSS \"%(name)s\" был обновлен."
+msgstr "CSS \"%(name)s\" обновлен."
 
 #: themes/admin/views.py:381
 #, python-format
@@ -7780,13 +7776,13 @@ msgstr "Вы уверены, что хотите удалить выбранны
 #: threads/admin/views/attachments.py:68
 msgctxt "admin attachments"
 msgid "Selected attachments have been deleted."
-msgstr "Выбранные вложения были удалены."
+msgstr "Выбранные вложения удалены."
 
 #: threads/admin/views/attachments.py:91
 #, python-format
 msgctxt "admin attachments"
 msgid "Attachment \"%(filename)s\" has been deleted."
-msgstr "Вложение \"%(filename)s\" было удалено."
+msgstr "Вложение \"%(filename)s\" удалено."
 
 #: threads/admin/views/attachmenttypes.py:16
 msgctxt "admin attachments types"
@@ -7803,7 +7799,7 @@ msgstr "Сохранен новый тип \"%(name)s\"."
 #, python-format
 msgctxt "admin attachments types"
 msgid "Attachment type \"%(name)s\" has been edited."
-msgstr "Тип вложения \"%(name)s\" был отредактирован."
+msgstr "Тип вложения \"%(name)s\" отредактирован."
 
 #: threads/admin/views/attachmenttypes.py:54
 #, python-format
@@ -7818,7 +7814,7 @@ msgstr ""
 #, python-format
 msgctxt "admin attachments types"
 msgid "Attachment type \"%(name)s\" has been deleted."
-msgstr "Вложение типа \"%(name)s\" было удалено."
+msgstr "Вложение типа \"%(name)s\" удалено."
 
 #: threads/api/attachments.py:20
 msgctxt "attachments api"
@@ -7828,7 +7824,7 @@ msgstr "У вас нет разрешения на загрузку новых �
 #: threads/api/attachments.py:33
 msgctxt "attachments api"
 msgid "No file has been uploaded."
-msgstr "Ни один файл не был загружен."
+msgstr "Ни один файл не загружен."
 
 #: threads/api/attachments.py:56
 msgctxt "attachments api"
@@ -8110,7 +8106,7 @@ msgstr[2] "За один раз может быть обновлено не бо
 #: threads/api/threadpoll.py:61
 msgctxt "polls api"
 msgid "There's already a poll in this thread."
-msgstr "В этой теме уже был проведен опрос."
+msgstr "В этой теме уже проведен опрос."
 
 #: threads/api/threadposts.py:220
 msgctxt "posts api"
@@ -9299,7 +9295,7 @@ msgstr "Эта категория закрыта. Вы не можете ред�
 #: threads/permissions/threads.py:747
 msgctxt "threads permission"
 msgid "This thread is closed. You can't edit it."
-msgstr "Эта тема была закрыта. Вы не можете ее редактировать."
+msgstr "Эта тема закрыта. Вы не можете ее редактировать."
 
 #: threads/permissions/threads.py:759
 msgctxt "threads permission"
@@ -9314,12 +9310,12 @@ msgstr "Вы не можете изменить вес тем в этой кат
 #: threads/permissions/threads.py:780
 msgctxt "threads permission"
 msgid "This category is closed. You can't change threads weights in it."
-msgstr "Эта категория была закрыта. Вы не можете изменить вес нитей в ней."
+msgstr "Эта категория закрыта. Вы не можете изменить вес нитей в ней."
 
 #: threads/permissions/threads.py:787
 msgctxt "threads permission"
 msgid "This thread is closed. You can't change its weight."
-msgstr "Этот тема была закрыта. Вы не можете изменить её вес."
+msgstr "Этот тема закрыта. Вы не можете изменить её вес."
 
 #: threads/permissions/threads.py:798 threads/permissions/threads.py:827
 msgctxt "threads permission"
@@ -9329,12 +9325,12 @@ msgstr "Вы должны войти в систему, чтобы скрыва�
 #: threads/permissions/threads.py:810
 msgctxt "threads permission"
 msgid "This category is closed. You can't reveal threads in it."
-msgstr "Эта категория была закрыта. Вы не можете раскрывать темы в ней."
+msgstr "Эта категория закрыта. Вы не можете раскрывать темы в ней."
 
 #: threads/permissions/threads.py:816
 msgctxt "threads permission"
 msgid "This thread is closed. You can't reveal it."
-msgstr "Эта тема была закрыта. Вы не можете ее раскрыть."
+msgstr "Эта тема закрыта. Вы не можете ее раскрыть."
 
 #: threads/permissions/threads.py:840
 msgctxt "threads permission"
@@ -9363,7 +9359,7 @@ msgstr "Эта категория закрыта. В ней нельзя скр�
 #: threads/permissions/threads.py:875
 msgctxt "threads permission"
 msgid "This thread is closed. You can't hide it."
-msgstr "Эта тема была закрыта. Вы не сможете её скрыть."
+msgstr "Эта тема закрыта. Вы не сможете её скрыть."
 
 #: threads/permissions/threads.py:887
 msgctxt "threads permission"
@@ -9398,7 +9394,7 @@ msgstr "Эта категория закрыта. Вы не можете уда�
 #: threads/permissions/threads.py:939
 msgctxt "threads permission"
 msgid "This thread is closed. You can't delete it."
-msgstr "Эта тема была закрыта. Вы не можете ее удалить."
+msgstr "Эта тема закрыта. Вы не можете ее удалить."
 
 #: threads/permissions/threads.py:950
 msgctxt "threads permission"
@@ -9448,12 +9444,12 @@ msgstr "Эта категория закрыта. Вы не можете объ�
 #: threads/permissions/threads.py:1026
 msgctxt "threads permission"
 msgid "Other thread is closed and can't be merged with."
-msgstr "Другая тема была закрыта и не может быть объединена с ней."
+msgstr "Другая тема закрыта и не может быть объединена с ней."
 
 #: threads/permissions/threads.py:1032
 msgctxt "threads permission"
 msgid "This thread is closed. You can't merge it with other threads."
-msgstr "Эта тема была закрыта. Вы не можете объединить её с другими темами."
+msgstr "Эта тема закрыта. Вы не можете объединить её с другими темами."
 
 #: threads/permissions/threads.py:1044
 msgctxt "threads permission"
@@ -9473,7 +9469,7 @@ msgstr "Эта категория закрыта. Вы не можете одо�
 #: threads/permissions/threads.py:1070
 msgctxt "threads permission"
 msgid "This thread is closed. You can't approve it."
-msgstr "Эта тема была закрыта. Вы не можете ее одобрить."
+msgstr "Эта тема закрыта. Вы не можете ее одобрить."
 
 #: threads/permissions/threads.py:1103
 msgctxt "threads permission"
@@ -9570,7 +9566,7 @@ msgstr "Эта категория закрыта. Вы не можете пок�
 #: threads/permissions/threads.py:1244
 msgctxt "threads permission"
 msgid "This thread is closed. You can't reveal posts in it."
-msgstr "Эта тема была закрыта. Вы не можете публиковать в ней посты."
+msgstr "Эта тема закрыта. Вы не можете публиковать в ней посты."
 
 #: threads/permissions/threads.py:1255
 msgctxt "threads permission"
@@ -9615,7 +9611,7 @@ msgstr "Эта категория закрыта. Вы не можете скр�
 #: threads/permissions/threads.py:1316
 msgctxt "threads permission"
 msgid "This thread is closed. You can't hide posts in it."
-msgstr "Эта тема была закрыта. Вы не можете скрывать посты в ней."
+msgstr "Эта тема закрыта. Вы не можете скрывать посты в ней."
 
 #: threads/permissions/threads.py:1327
 msgctxt "threads permission"
@@ -9804,7 +9800,7 @@ msgstr "Эта категория закрыта. Вы не можете раз�
 #: threads/permissions/threads.py:1626
 msgctxt "threads permission"
 msgid "This thread is closed. You can't split posts in it."
-msgstr "Эта тема была закрыта. Вы не можете разделять посты в ней."
+msgstr "Эта тема закрыта. Вы не можете разделять посты в ней."
 
 #: threads/permissions/threads.py:1637
 msgctxt "threads permission"
@@ -9824,7 +9820,7 @@ msgstr "Эта категория закрыта. Вы не можете рас�
 #: threads/permissions/threads.py:1663
 msgctxt "threads permission"
 msgid "This thread is closed. You can't reveal events in it."
-msgstr "Эта тема была закрыта. Вы не можете раскрывать события в ней."
+msgstr "Эта тема закрыта. Вы не можете раскрывать события в ней."
 
 #: threads/permissions/threads.py:1674
 msgctxt "threads permission"
@@ -9844,7 +9840,7 @@ msgstr "Эта категория закрыта. Вы не можете скр�
 #: threads/permissions/threads.py:1700
 msgctxt "threads permission"
 msgid "This thread is closed. You can't hide events in it."
-msgstr "Эта тема была закрыта. Вы не можете скрывать события в ней."
+msgstr "Эта тема закрыта. Вы не можете скрывать события в ней."
 
 #: threads/permissions/threads.py:1711
 msgctxt "threads permission"
@@ -9864,7 +9860,7 @@ msgstr "Эта категория закрыта. Вы не можете уда�
 #: threads/permissions/threads.py:1737
 msgctxt "threads permission"
 msgid "This thread is closed. You can't delete events in it."
-msgstr "Эта тема была закрыта. Вы не можете удалять события из нее."
+msgstr "Эта тема закрыта. Вы не можете удалять события из нее."
 
 #: threads/search.py:16
 msgctxt "search provider"
@@ -11119,25 +11115,25 @@ msgstr "Вы уверены, что хотите снять эти блокир�
 #: users/admin/views/bans.py:46
 msgctxt "admin bans"
 msgid "Selected bans have been removed."
-msgstr "Некоторые блокировки были сняты."
+msgstr "Выделенные блокировки сняты."
 
 #: users/admin/views/bans.py:51
 #, python-format
 msgctxt "admin bans"
 msgid "New ban \"%(name)s\" has been saved."
-msgstr "Новая блокировка \"%(name)s\" была сохранена."
+msgstr "Новая блокировка \"%(name)s\" сохранена."
 
 #: users/admin/views/bans.py:55
 #, python-format
 msgctxt "admin bans"
 msgid "Ban \"%(name)s\" has been edited."
-msgstr "Блокировка \"%(name)s\" была отредактирована."
+msgstr "Блокировка \"%(name)s\" отредактирована."
 
 #: users/admin/views/bans.py:62
 #, python-format
 msgctxt "admin bans"
 msgid "Ban \"%(name)s\" has been removed."
-msgstr "Блокировка \"%(name)s\" была удалена."
+msgstr "Блокировка \"%(name)s\" удалена."
 
 #: users/admin/views/datadownloads.py:23
 msgctxt "admin data downloads ordering choice "
@@ -11189,12 +11185,12 @@ msgstr "Срок действия выбранных скачиваний дан
 #: users/admin/views/datadownloads.py:73
 msgctxt "admin data downloads"
 msgid "Selected data downloads have been deleted."
-msgstr "Выбранные скачивания данных были удалены."
+msgstr "Выбранные скачивания данных удалены."
 
 #: users/admin/views/datadownloads.py:90
 msgctxt "admin data downloads"
 msgid "Data downloads have been requested for specified users."
-msgstr "Для указанных пользователей было запрошено скачивание данных."
+msgstr "Для указанных пользователей запрошено скачивание данных."
 
 #: users/admin/views/ranks.py:16
 msgctxt "admin ranks"
@@ -11211,7 +11207,7 @@ msgstr "Сохранен новый уровень \"%(name)s\"."
 #, python-format
 msgctxt "admin ranks"
 msgid "Rank \"%(name)s\" has been edited."
-msgstr "Уровень \"%(name)s\" был отредактирован."
+msgstr "Уровень \"%(name)s\" отредактирован."
 
 #: users/admin/views/ranks.py:45
 #, python-format
@@ -11229,19 +11225,19 @@ msgstr "Уровень \"%(name)s\" присваивоен пользовате�
 #, python-format
 msgctxt "admin ranks"
 msgid "Rank \"%(name)s\" has been deleted."
-msgstr "Уровень \"%(name)s\" был удален."
+msgstr "Уровень \"%(name)s\" удален."
 
 #: users/admin/views/ranks.py:75
 #, python-format
 msgctxt "admin ranks"
 msgid "Rank \"%(name)s\" has been moved below \"%(other)s\"."
-msgstr "Уровень \"%(name)s\" был перемещен ниже \"%(other)s\"."
+msgstr "Уровень \"%(name)s\" перемещен ниже \"%(other)s\"."
 
 #: users/admin/views/ranks.py:95
 #, python-format
 msgctxt "admin ranks"
 msgid "Rank \"%(name)s\" has been moved above \"%(other)s\"."
-msgstr "Уровень \"%(name)s\" был перемещен выше \"%(other)s\"."
+msgstr "Уровень \"%(name)s\" перемещен выше \"%(other)s\"."
 
 #: users/admin/views/ranks.py:110
 #, python-format
@@ -11348,7 +11344,7 @@ msgstr "Ваша учетная запись на форуме %(forum_name)s а
 #: users/admin/views/users.py:135
 msgctxt "admin users"
 msgid "Selected users accounts have been activated."
-msgstr "Учетные записи выбранных пользователей были активированы."
+msgstr "Учетные записи выбранных пользователей активированы."
 
 #: users/admin/views/users.py:145
 #, python-format
@@ -11359,13 +11355,12 @@ msgstr "%(user)s является суперадминистратором и н
 #: users/admin/views/users.py:209
 msgctxt "admin users"
 msgid "Selected users have been banned."
-msgstr "Выбранные пользователи были заблокированы."
+msgstr "Выбранные пользователи заблокированы."
 
 #: users/admin/views/users.py:228
 msgctxt "admin users"
 msgid "Data download requests have been placed for selected users."
-msgstr ""
-"Для выбранных пользователей были размещены запросы на скачивание данных."
+msgstr "Для выбранных пользователей размещены запросы на скачивание данных."
 
 #: users/admin/views/users.py:236 users/admin/views/users.py:256
 msgctxt "admin users"
@@ -11381,7 +11376,7 @@ msgstr "%(user)s администратор и не может быть удал
 #: users/admin/views/users.py:249
 msgctxt "admin users"
 msgid "Selected users have been deleted."
-msgstr "Выбранные пользователи были удалены."
+msgstr "Выбранные пользователи удалены."
 
 #: users/admin/views/users.py:274
 msgctxt "admin users"
@@ -11389,8 +11384,8 @@ msgid ""
 "Selected users have been disabled and queued for deletion together with "
 "their content."
 msgstr ""
-"Выбранные пользователи были отключены и поставлены в очередь на удаление "
-"вместе с их содержимым."
+"Выбранные пользователи отключены и поставлены в очередь на удаление вместе с "
+"их содержимым."
 
 #: users/admin/views/users.py:283
 #, python-format
@@ -11402,14 +11397,14 @@ msgstr "Зарегистрирован новый пользователь \"%(u
 #, python-format
 msgctxt "admin users"
 msgid "User \"%(user)s\" has been edited."
-msgstr "Пользователь \"%(user)s\" был отредактирован."
+msgstr "Пользователь \"%(user)s\" отредактирован."
 
 #: users/api/auth.py:41
 #, python-format
 msgctxt "auth api"
 msgid "This feature has been disabled. Please use %(provider)s to sign in."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s для входа в "
+"Эта функция отключена. Пожалуйста, используйте %(provider)s для входа в "
 "систему."
 
 #: users/api/auth.py:117
@@ -11457,12 +11452,12 @@ msgstr "Неизвестный тип аватара."
 #: users/api/userendpoints/avatar.py:144
 msgctxt "avatar api"
 msgid "New avatar based on your account was set."
-msgstr "Был установлен новый аватар на основе вашей учетной записи."
+msgstr "Установлен новый аватар на основе вашей учетной записи."
 
 #: users/api/userendpoints/avatar.py:150
 msgctxt "avatar api"
 msgid "Gravatar was downloaded and set as new avatar."
-msgstr "Gravatar был загружен и установлен в качестве нового аватара."
+msgstr "Gravatar загружен и установлен в качестве нового аватара."
 
 #: users/api/userendpoints/avatar.py:154
 msgctxt "avatar api"
@@ -11477,7 +11472,7 @@ msgstr "Не удалось подключиться к Gravatar."
 #: users/api/userendpoints/avatar.py:168
 msgctxt "avatar api"
 msgid "Avatar from gallery was set."
-msgstr "Был установлен аватар из галереи."
+msgstr "Установлен аватар из галереи."
 
 #: users/api/userendpoints/avatar.py:170
 msgctxt "avatar api"
@@ -11487,17 +11482,17 @@ msgstr "Неправильное изображение."
 #: users/api/userendpoints/avatar.py:176
 msgctxt "avatar api"
 msgid "No file was sent."
-msgstr "Файл не был отправлен."
+msgstr "Файл не отправлен."
 
 #: users/api/userendpoints/avatar.py:189
 msgctxt "avatar api"
 msgid "Avatar was re-cropped."
-msgstr "Аватар был обрезан заново."
+msgstr "Аватар обрезан заново."
 
 #: users/api/userendpoints/avatar.py:194
 msgctxt "avatar api"
 msgid "Uploaded avatar was set."
-msgstr "Загруженный аватар был установлен."
+msgstr "Загруженный аватар установлен."
 
 #: users/api/userendpoints/changeemail.py:24
 #, python-format
@@ -11510,7 +11505,7 @@ msgstr ""
 msgctxt "change email api"
 msgid "E-mail change confirmation link was sent to new address."
 msgstr ""
-"На новый адрес электронной почты была отправлена ссылка для подтверждения "
+"На новый адрес электронной почты отправлена ссылка для подтверждения "
 "изменения по электронной почте."
 
 #: users/api/userendpoints/changepassword.py:24
@@ -11522,7 +11517,7 @@ msgstr "Подтвердите смену пароля на форуме %(forum
 #: users/api/userendpoints/changepassword.py:39
 msgctxt "change password api"
 msgid "Password change confirmation link was sent to your address."
-msgstr "На ваш адрес была отправлена ссылка для подтверждения смены пароля."
+msgstr "На ваш адрес отправлена ссылка для подтверждения смены пароля."
 
 #: users/api/userendpoints/create.py:27
 msgctxt "user register api"
@@ -11570,7 +11565,7 @@ msgstr "Для выполнения этого действия вам необ�
 msgctxt "users api"
 msgid "This feature has been disabled. Please use %(provider)s to sign in."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s для входа в "
+"Эта функция отключена. Пожалуйста, используйте %(provider)s для входа в "
 "систему."
 
 #: users/api/users.py:124
@@ -11586,7 +11581,7 @@ msgstr "Вы не можете изменять параметры других 
 #: users/api/users.py:149
 msgctxt "users api"
 msgid "Your forum options have been changed."
-msgstr "Ваши параметры форума были изменены."
+msgstr "Ваши параметры форума изменены."
 
 #: users/api/users.py:161
 #, python-format
@@ -11594,8 +11589,8 @@ msgctxt "users api"
 msgid ""
 "This feature has been disabled. Please use %(provider)s to change your name."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s, чтобы "
-"изменить свое имя."
+"Эта функция отключена. Пожалуйста, используйте %(provider)s, чтобы изменить "
+"свое имя."
 
 #: users/api/users.py:170
 msgctxt "users api"
@@ -11614,8 +11609,8 @@ msgid ""
 "This feature has been disabled. Please use %(provider)s to change your "
 "password."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s, чтобы "
-"изменить свой пароль."
+"Эта функция отключена. Пожалуйста, используйте %(provider)s, чтобы изменить "
+"свой пароль."
 
 #: users/api/users.py:206
 msgctxt "users api"
@@ -11629,8 +11624,8 @@ msgid ""
 "This feature has been disabled. Please use %(provider)s to change your e-"
 "mail."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s, чтобы "
-"изменить свой адрес электронной почты."
+"Эта функция отключена. Пожалуйста, используйте %(provider)s, чтобы изменить "
+"свой адрес электронной почты."
 
 #: users/api/users.py:231
 msgctxt "users api"
@@ -11644,8 +11639,8 @@ msgid ""
 "This feature has been disabled. Please use %(provider)s to delete your "
 "account."
 msgstr ""
-"Эта функция была отключена. Пожалуйста, используйте %(provider)s, чтобы "
-"удалить свою учетную запись."
+"Эта функция отключена. Пожалуйста, используйте %(provider)s, чтобы удалить "
+"свою учетную запись."
 
 #: users/api/users.py:349
 msgctxt "users api"
@@ -12656,7 +12651,7 @@ msgstr[2] ""
 #: users/validators.py:168
 msgctxt "stop forum spam validator"
 msgid "Data entered was found in spammers database."
-msgstr "Введенные данные были найдены в базе спамеров."
+msgstr "Введенные данные найдены в базе спамеров."
 
 #: users/validators.py:183
 msgctxt "gmail email validator"
@@ -12690,7 +12685,7 @@ msgstr ""
 #, python-format
 msgctxt "activate account with token"
 msgid "%(user)s, your account has been activated!"
-msgstr "%(user)s, ваша учетная запись была активирована администратором сайта!"
+msgstr "%(user)s, ваша учетная запись активирована администратором сайта!"
 
 #: users/views/auth.py:21
 #, python-format
@@ -12732,7 +12727,7 @@ msgstr ""
 #, python-format
 msgctxt "user options"
 msgid "%(user)s, your e-mail has been changed."
-msgstr "%(user)s, ваш адрес электронной почты был изменен."
+msgstr "%(user)s, ваш адрес электронной почты изменен."
 
 #: users/views/options.py:74
 #, python-format
@@ -12744,4 +12739,4 @@ msgstr "Пожалуйста, используйте %(provider)s, чтобы и
 #, python-format
 msgctxt "user options"
 msgid "%(user)s, your password has been changed."
-msgstr "%(user)s, ваш пароль был изменен."
+msgstr "%(user)s, ваш пароль изменен."
